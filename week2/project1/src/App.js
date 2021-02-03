@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
      <div className = "Lists">
-     <Navbar/>
+     {/* <Navbar/> */}
        <Header />
        <BlogList/><hr></hr>
        <BlogPost/>

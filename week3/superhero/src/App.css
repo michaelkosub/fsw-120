@@ -28,11 +28,12 @@
   color: #61dafb;
 }
 
-#Blog{
-  margin-left: 170px;
-  margin-right: 170px;
-  
+img{
+  width: 100px;
+  height: 100px;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

@@ -36,11 +36,11 @@ const BlogList = () => {
             return(
                 <div>
                 <div key = {blogCounter}>
-                    {post.title}, {post.subTitle}, {post.author},{post.date}
+                  <h3>{post.title}</h3>  , {post.subTitle}, <h6>{post.author},{post.date}</h6>
                 </div><br></br></div>
             )
         });
-  return ( <div>{BlogOne}</div>)
+  return ( <div id = "Blog">{BlogOne}</div>)
    
 }
 
