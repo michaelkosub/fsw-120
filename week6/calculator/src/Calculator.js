@@ -36,8 +36,15 @@ class Cal extends React.Component {
         return ` ${number1} * ${number2} = ${number1 * number2}`;
       } else if (this.state.calculation === "div") {
         return ` ${number1} / ${number2} = ${number1 / number2}`;
-      } else return "";
+      }
     };
+
+    clearState = () => {
+        this.setState({
+            num1:"",
+            num2:""
+        })
+    }
   
     render() {
       return (
@@ -75,7 +82,8 @@ class Cal extends React.Component {
             <button className="button" id="div" onClick={this.handleClick}>
               /
             </button>
-            <button className="button" id="clear" onClick={this.handleClick}>
+            <button className="button" id="clear" onClick={(w) => {this.handleClick(w); this.clearState(w) }}>
+                
                 C
             </button>
           </div>
