@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FsY3VsYXRvcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Merienda One;
+}
+
+#calc {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.number {
+  background-color: beige;
+  text-align: center;
+}
+
+#buttonC {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button {
+  background-color: rgb(214, 44, 44);
+}
+
+#calculation {
+  color: rgb(14, 13, 13);
+  background-color: beige;
+  border: 1px solid black;
+}
